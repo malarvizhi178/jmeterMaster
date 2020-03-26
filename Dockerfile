@@ -4,8 +4,8 @@ MAINTAINER Malar
 RUN groupadd -g 2019 guest && \
     useradd -r -u 2019 -g guest guest
 
-RUN chown -R guest:root /app && \
-    chmod -R g=u /app
+RUN chown -R guest:root /jmeter && \
+    chmod -R g=u /jmeter
 RUN ls -al
 
 USER guest
