@@ -1,6 +1,6 @@
 FROM malar178/jmeter-base:latest
 MAINTAINER Malar
 
-USER $(id -u):$(id -g)
+USER appuser
 
 EXPOSE 60000
