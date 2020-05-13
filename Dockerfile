@@ -1,5 +1,5 @@
 FROM malar178/jmeter-base:latest
-MAINTAINER Malar
+MAINTAINER Malar178
 
 RUN chgrp -R 0 /jmeter && \
     chmod -R g=u /jmeter
